@@ -41,7 +41,7 @@ print(product)
 quotient = x / y
 print(quotient)
 
-# Power of a number 
+# The Power of a number or exponents
 a = 4 
 c = 4 
 power = a**c
@@ -64,5 +64,15 @@ print(difference)
 product = x * y
 print(product)
 
-# 
+# To make lareg numbers more readbale you use underscores
+huge_number = 10_000_000_000
+print(huge_number) 
+
+# Boolean (True or False)
+
+x = 20
+y = 3
+result = x < y 
+print(result) 
+
 
