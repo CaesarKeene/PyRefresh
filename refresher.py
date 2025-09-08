@@ -51,7 +51,6 @@ power = a**c
 print(power)
 
 
-
 # Numbers: floats 
 # Floats are any number that have a decimal point 
 
@@ -72,7 +71,6 @@ huge_number = 10_000_000_000
 print(huge_number) 
 
 # Boolean (True or False)
-
 x = 20
 y = 3
 result = x < y 
