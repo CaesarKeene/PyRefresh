@@ -1,11 +1,14 @@
 # Variables and Syntax 
 message = 'Hello, World!'
-print(message)
+#print(message)
 
 message = 'Good Bye!'
-print(message) 
+#print(message) 
 
 variable_name = 'caesar' 
+character_age = '25'
+print(variable_name + ' wanted to learn how to code again')
+print('he is ' + character_age + " years of age now.") 
 
 # concatenate 
 new_message = message + variable_name
@@ -64,7 +67,7 @@ print(difference)
 product = x * y
 print(product)
 
-# To make lareg numbers more readbale you use underscores
+# To make large numbers more readable you use underscores
 huge_number = 10_000_000_000
 print(huge_number) 
 
