@@ -1,4 +1,4 @@
-
+"""
 #calculator using int function for whole numbers
 num1 = input("Enter a number: ") 
 num2 = input("Enter another number: ")
@@ -10,19 +10,23 @@ num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
 result = float(num1) + float(num2)
 print(result)  
-
+"""
 
 # VAT rate calculation 
 """ This is a small VAT caluculator that uses both int and float data types to get 
 the price of a product including VAT. 
 With the addition of a formatted string literal for cleaner code.
 """
-price = input("Enter price of product (Ksh): ")
+
+price = input("Enter price of product (Ksh): ") 
 tax = input("Enter VAT percentage (%): ")
 
 VAT_amount = int(price) * float(tax) 
 final_amount = VAT_amount + int(price)
 print(f"The price of your product is Ksh: {final_amount}")
+
+
+
 
 
 
