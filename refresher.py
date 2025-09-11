@@ -1,4 +1,5 @@
 """
+
 # Variables and Syntax 
 message = 'Hello, World!'
 #print(message)
@@ -77,15 +78,17 @@ y = 3
 result = x < y 
 print(result) 
 
-"""
+
+""" 
 
 #Python Arithmetic Operators
 #Modulus %
+""" Modulus operator allows you to return the remainder of two numbers that are divided """
 a = 171 
-if a % 1 == 1 : 
-    print(f"{a} is an even number");
+if a % 1 == 1: 
+    print(f"{a} is an even number")
 else:  
-    print(f"{a} is an odd number");
+    print(f"{a} is an odd number") 
 
 
 
