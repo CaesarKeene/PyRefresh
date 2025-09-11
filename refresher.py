@@ -84,11 +84,17 @@ print(result)
 #Python Arithmetic Operators
 #Modulus %
 """ Modulus operator allows you to return the remainder of two numbers that are divided """
+"""
 a = 171 
 if a % 1 == 1: 
     print(f"{a} is an even number")
 else:  
     print(f"{a} is an odd number") 
+
+"""
+# if/else statements 
+age = input("Enter your age")
+if int(age) < 18
 
 
 
