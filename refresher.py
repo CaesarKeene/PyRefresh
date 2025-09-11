@@ -92,6 +92,7 @@ else:
     print(f"{a} is an odd number") 
 
 """
+"""
 # if/else statements 
 age = input("Enter your age: ")
 if int(age) >= 18:
@@ -99,3 +100,16 @@ if int(age) >= 18:
     print("Time to vote!")
 else: 
     print("You are not eligible to vote ") 
+"""
+
+# if else elif statements 
+age = input("Enter your age:")
+user_age = int(age)
+
+if user_age < 12:
+    ticket_price = 100
+elif user_age <= 17:
+    ticket_price = 300
+elif user_age >= 18:
+    ticket_price = 600 
+print(f"Your ticket price is Ksh:{ticket_price}") 
