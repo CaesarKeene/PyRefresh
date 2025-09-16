@@ -105,11 +105,20 @@ else:
 # if else elif statements 
 age = input("Enter your age:")
 user_age = int(age)
-
+"""
 if user_age < 12:
     ticket_price = 100
 elif user_age <= 17:
     ticket_price = 300
 elif user_age >= 18:
     ticket_price = 600 
+print(f"Your ticket price is Ksh:{ticket_price}") 
+"""
+
+if user_age < 5:
+    ticket_price = 100
+elif user_age < 17:
+    ticket_price = 300
+else:
+    ticket_price = 600                      #else should be the last resort or condition
 print(f"Your ticket price is Ksh:{ticket_price}") 
