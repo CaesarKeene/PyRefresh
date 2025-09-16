@@ -128,7 +128,7 @@ print(f"Your ticket price is Ksh:{ticket_price}")
 
 """
 
-# ternary operator 
+# ternary operator This makes the code more concise
 user_age = input("Enter your age: ")
 user_age = 25
 ticket_price = 100 if int(user_age) >= 25 else 50 
