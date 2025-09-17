@@ -16,11 +16,10 @@ elif grade_no >= 50:
     print("Pass ")     
 elif grade_no >= 40:
     print("You have a clear pass ")
-elif grade_no >= 20:
-    print("Refferal - see HOD")
 
+# addition of ternary operator within the if chain.
 else: 
-    print("Fail")   
+   grade_no = print("Refferal - see HOD") if grade_no >=20 else print("Fail")
  
 
 
