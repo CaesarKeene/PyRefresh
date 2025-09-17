@@ -3,7 +3,7 @@
 #welcome message and input for the user 
 print("Hello, welcome to your grade calculator! ")
 grade = input("Please enter your grade: ") 
-grade_no = int(grade) 
+grade_no = float(grade)
 
 # These are the grade conditions 
 if grade_no >= 80:
